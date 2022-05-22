@@ -339,7 +339,7 @@ section:not(:first-child) {
 }
 
 .word {
-    color: #990000;
+    color: #fff;
     font-weight: 900;
     text-align: center;
 }
