@@ -1050,7 +1050,6 @@ footer {
         background-size: cover;
     }
 
-
     .footer {
         padding: 1em 1em;
     }
@@ -1059,7 +1058,6 @@ footer {
 @media (max-width : 375px) {
     .shows {
         height: calc(90% - 54px);
-        background-size: contain;
     }
 }
 
@@ -1073,5 +1071,72 @@ footer {
 
     .new-logo {
         margin: 0 20px;
+    }
+}
+
+@media (max-width : 320px) {
+    section:not(:first-child) {
+        padding: 35px 5px 50px 5px;
+    }
+
+    .main .down-to-cars {
+        width: 200px;
+    }
+
+    .title {
+        margin-bottom: 10px;
+        font-size: 2.5em;
+    }
+
+    .aom {
+        left: -205px;
+        width: 160px;
+    }
+
+    .type-car::before {
+        border-width: 15px 15px 15px 45px;
+        left: -45px;
+    }
+
+    .output {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image-cars {
+        width: 150px;
+    }
+
+    .list-17 {
+        top: -1240px;
+    }
+
+    .text-address {
+        font-size: 19px;
+    }
+
+    .to-connect {
+        padding: 0 0 20px 0;
+    }
+
+    .new-logo::before {
+        left: -10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        text-align: center;
+    }
+
+    footer p,
+    footer .social-icons {
+        width: 100%;
+    }
+
+    footer .social-icons a {
+        margin: 5px 10px;
     }
 }
