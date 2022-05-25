@@ -1054,7 +1054,13 @@ footer {
         padding: 1em 1em;
     }
 }
-
+@media (max-width : 400px) {
+    .output {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
 @media (max-width : 375px) {
     .shows {
         height: calc(90% - 54px);
@@ -1101,6 +1107,7 @@ footer {
     .output {
         display: flex;
         flex-wrap: wrap;
+        width : 100% ;
     }
 
     .image-cars {
